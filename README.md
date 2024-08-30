@@ -1,6 +1,6 @@
 ## Hello there 👋
 
-Contact me: matheusncb@usp.br ou matheus.brustelo@gmail.com
+Contact me: matheusncb@usp.br or matheus.brustelo@gmail.com
 
 <!--
 **matncb/matncb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -16,10 +16,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<meta http-equiv='cache-control' content='no-cache'> 
-<meta http-equiv='expires' content='0'> 
-<meta http-equiv='pragma' content='no-cache'>
-
 </div>
 
 <p align="center">
