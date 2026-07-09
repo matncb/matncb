@@ -2,6 +2,10 @@
 
 [[ $- != *i* ]] && return
 
+# Configurações de autocomplemento e expansão case-insensitive
+bind 'set completion-ignore-case on'
+shopt -s nocaseglob
+
 __build_ps1() {
     local C_GREEN='\[\033[1;32m\]'
     local C_BLUE='\[\033[1;34m\]'
@@ -15,7 +19,7 @@ __build_ps1() {
         git_info=" ${C_YELLOW}(${branch})"
     fi
     
-    PS1="${C_GREEN}\u ${C_BLUE}\w${git_info} ${C_GREEN}➜ ${CLR_RESET}${C_RESET}"
+    PS1="${C_GREEN}\u ${C_BLUE}\w${git_info} ${C_GREEN}➜ ${C_RESET}"
 }
 
 PROMPT_COMMAND=__build_ps1
